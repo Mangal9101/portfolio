@@ -15,7 +15,7 @@ const projectList = [
     title: "React Shopping Cart",
     description: "A responsive shopping cart application built using React that allows users to add, remove, and manage products with dynamic state management and real-time updates.",
     techStack: ["HTML", "CSS", "JavaScript", "React"],
-    image: "/assets/projects/React_shopping_cart.png",
+    image: "/assets/projects/React_Shopping_Cart.png",
     livelink: "https://react-shopping-cart-two-mauve.vercel.app/",
     githublink: "https://github.com/Mangal9101/React_Shopping_Cart"
   },
