@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website | HTML , CSS, JavaScript. phosphor-icons</title>
+    <link rel="shortcut icon" href="assets/logoo.avif" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <div class="brand-info">
+                <img src="assets/logoo.avif" alt="">
+                <h2>Portfolio</h2>
+            </div>
+
+            <div class="menu-area">
+                <input type="checkbox"  id="menu-toggle" hidden />
+                <label for="menu-toggle" class="menu-icon">
+                    <i class="ph ph-list"></i>
+                </label>
+
+                <label for="menu-toggle" id="overlay"></label>
+            
+
+
+            <nav>
+                <a href="#" style="--i:2" data-tab="home" class="navlink active">Home</a>
+                <a href="#" style="--i:2" data-tab="services" class="navlink">Services</a>
+                <a href="#" style="--i:1" data-tab="about" class="navlink">About</a>
+                <a href="#" style="--i:3" data-tab="projects" class="navlink">Projects</a>
+                <a href="#" style="--i:4" data-tab="contact" class="navlink">Contact</a>
+            </nav>
+            </div>
+        </header>
+
+
+        <section id="home" class="content active">
+            <div class="details">
+                <h3>
+                    <span>Manglesh</span> Patidar
+                </h3>
+                <h4>I'm
+                    <span id="typing-span"></span>
+                </h4>
+                <p>Hi, I’m Manglesh Patidar, a Python Full Stack Developer passionate about building modern, responsive, and user-friendly web applications. I enjoy working on both frontend and backend development, creating seamless digital experiences that are fast, clean, and efficient.</p>
+
+               <div class="bottom">
+                 <a href="assets/cv.pdf" class="btn" download>Download CV</a>     
+
+                 <div class="social-icons">
+                    <a href="https://github.com/Mangal9101" title="GitHub"><i class="ph ph-github-logo"></i></a>
+                    <a href="https://www.linkedin.com/in/mangal9101" title="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+                    <a href="mailto:mangleshpatidar940@gmail.com" title="Email">
+                       <i class="ph ph-envelope-simple"></i>
+                    </a>
+                 </div>
+               </div>
+
+            </div>
+
+            <div class="img-container">
+                <img src="assets/Profile.png" alt="profile picture" title="profile picture" loading="lazy">
+                
+            </div>
+        </section>
+
+        <section id="services" class="content">
+            <h2>My <span>Services</span></h2>
+            <div class="service-list">
+            </div>
+        </section>
+
+        <section id="about" class="content">
+            <div class="sidebar"> 
+                <h3>Why Hire Me ?</h3>
+                <p>I am a skilled Python full stack developer with strong problem-solving abilities, quick learning skills, and dedication to building efficient, scalable, and user-friendly applications while working effectively in a team.</p>
+                <div class="tabs">
+                    <span data-section="experience" class="tab">Experience</span>
+                    <span data-section="education" class="tab">Education</span>
+                    <span data-section="skills" class="tab">Skills</span>
+                    <span data-section="about-me" class="tab">About Me</span>
+
+                </div>
+            </div>
+
+            <aside id="experience" class="tab-content active">
+                <h2>My <span>Experience</span></h2>
+                <p>As a fresher, I have gained hands-on experience in Python full stack development through projects, strengthening my skills in problem-solving, databases, and continuous learning in web development.</p>
+                <div class="experience-list">
+                </div>
+            </aside>
+
+            <aside id="education" class="tab-content">
+                <h2>My <span>Education</span></h2>
+                <p>Here are my educational qualifications, which have built a strong foundation in technology, problem-solving, and continuous learning in web development.</p>
+                <div class="education-list">
+                </div>
+            </aside>
+
+            <aside id="skills" class="tab-content">
+                <h2>My <span>Skills</span></h2>
+                <p>I possess strong skills in Python full stack development, including frontend, backend, and MySQL, along with problem-solving abilities, DSA knowledge, and a commitment to continuous learning and improvement.</p>
+                <div class="skill-list">
+                </div>
+
+            </aside>
+
+            <aside id="about-me" class="tab-content">
+                <h2>About <span> Me</span></h2>
+                <p>I am a motivated and dedicated individual with a strong interest in technology and web development, always eager to learn new skills, solve problems, and grow continuously both personally and professionally.</p>
+                <div class="my-info">
+
+                </div>
+            </aside>
+        </section>
+
+        <section id="projects" class="content">
+              <div class="projects"></div>
+        </section>
+
+        <section id="contact" class="content">
+            <div class="contact-info">
+                <h2>Let's Work <span>Together</span></h2>
+                <p>Let’s work together to build modern and impactful web solutions. I am open to collaborations, freelance projects, and opportunities where I can contribute as a Python Full Stack Developer..</p>
+                <div class="contact-media">
+                </div>
+            </div>
+            <form action="#" id="contact-form">
+                    <fieldset>
+                        <legend><span>Contact</span> Me !</legend>
+                        <div class="field">
+                            <div>
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter Your Name" required >
+                            </div>
+
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                            </div>
+
+                            <div>
+                                <label for="phone">Phone</label>
+                                <input type="text" id="phone" name="phone" placeholder="Enter Your Phone" required>
+                            </div>
+
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" cols="30" rows="5" placeholder="Enter Your Message" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn" id="send-msg">Send Message</button>
+                    </fieldset>
+                </form> 
+        </section>
+</div>
+
+
+    <script src="scripts/script.js" type="module" defer></script>
+    <script src="scripts/about.js" type="module" defer></script>
+    <script src="scripts/project.js" type="module" defer></script> 
+    <script src="scripts/contact.js" type="module" defer></script> 
+  
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+              publicKey: "c6FfT88KQtCIPSaCA",
+            });
+        })();
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
+
