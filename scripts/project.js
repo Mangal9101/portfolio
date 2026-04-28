@@ -5,7 +5,7 @@ const projectList = [
     title: "Calculator",
     description: "A simple and responsive calculator built using HTML and JavaScript that performs basic arithmetic operations like addition, subtraction, multiplication, and division.",
     techStack: ["HTML", "JavaScript"],
-    image: "/public/projects/Calculator.png",
+    image: "/assets/projects/Calculator.png",
     livelink: "https://calculator-kappa-puce-74.vercel.app/",
     githublink: "https://github.com/Mangal9101/calculator"
   },
@@ -15,7 +15,7 @@ const projectList = [
     title: "React Shopping Cart",
     description: "A responsive shopping cart application built using React that allows users to add, remove, and manage products with dynamic state management and real-time updates.",
     techStack: ["HTML", "CSS", "JavaScript", "React"],
-    image: "/public/projects/React_shopping_cart.png",
+    image: "/assets/projects/React_shopping_cart.png",
     livelink: "https://react-shopping-cart-two-mauve.vercel.app/",
     githublink: "https://github.com/Mangal9101/React_Shopping_Cart"
   },
@@ -25,7 +25,7 @@ const projectList = [
     title: "Mini School Management System",
     description: "A full stack web application built using FastAPI and MySQL to manage student records, attendance, and basic school operations with an organized database system.",
     techStack: ["HTML", "CSS", "FastAPI", "Python", "MySQL"],
-    image: "/public/projects/mini_school.png",
+    image: "/assets/projects/mini_school.png",
     livelink: "https://mini-school.onrender.com",
     githublink: "https://github.com/Mangal9101/mini_school"
   },
@@ -35,7 +35,7 @@ const projectList = [
     title: "ORM Project",
     description: "A Python-based ORM system built with Django that simplifies database operations by mapping objects to database tables, improving code efficiency and maintainability.",
     techStack: ["Django", "Python", "MySQL"],
-    image: "/public/projects/project_orm.webp",
+    image: "/assets/projects/project_orm.webp",
     livelink: "#",
     githublink: "https://github.com/Mangal9101/orm_project"
   }

@@ -123,43 +123,43 @@ aboutTabs.forEach((tab) =>{
            const skillList = [{
             id:1,
             name:"Python",
-            icons: "/public/skills/python.png"
+            icons: "/assets/skills/python.png"
            },{
             id:2,
             name:"JavaScript",
-            icons: "/public/skills/js.png"
+            icons: "/assets/skills/js.png"
            },{
             id:3,
             name:"React",
-            icons: "/public/skills/react.png"
+            icons: "/assets/skills/react.png"
            },{
             id:4,
             name:"Django",
-            icons: "/public/skills/django.png"
+            icons: "/assets/skills/django.png"
            },{
             id:5,
             name:"DSA",
-            icons: "/public/skills/DSA.png"
+            icons: "/assets/skills/DSA.png"
            },{
             id:6,
             name:"MongoDB",
-            icons: "/public/skills/mongodb.png"
+            icons: "/assets/skills/mongodb.png"
            },{
             id:7,
             name:"BootStrap",
-            icons: "/public/skills/bootstrap.png"
+            icons: "/assets/skills/bootstrap.png"
            },{
             id:8,
             name:"CSS",
-            icons: "/public/skills/css.png" 
+            icons: "/assets/skills/css.png" 
            },{
             id:9,
             name:"HTML",
-            icons: "/public/skills/html.png" 
+            icons: "/assets/skills/html.png" 
            },{
             id:10,
             name:"FastAPI",
-            icons: "/public/skills/FastAPI.png" 
+            icons: "/assets/skills/FastAPI.png" 
            }];
 
         
